@@ -6,7 +6,7 @@ With this Image, and the corresponding compose file you can simply build you app
 and 
 `docker-compose exec ionic-builder sh`
 
-With does 2 commands you are inside the project and can run any ionic command you are used to.
+With this 2 commands you are inside the project and can run any ionic command you are used to.
 
 ## iOS Build 
 
