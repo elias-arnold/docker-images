@@ -13,6 +13,7 @@ RUN pod setup
 RUN npm install -g @ionic/cli
 RUN npm install -g capacitor
 RUN npm install -g capacitor-resources
+RUN npm install -g @angular/cli
 
 WORKDIR /app
 
