@@ -2,6 +2,7 @@ FROM ubuntu:21.10
 
 ENV COCOAPODS_ALLOW_ROOT=true
 ENV LANG=C.UTF-8
+ENV NG_CLI_ANALYTICS=ci
 
 RUN apt-get update && apt-get install -y git ruby-full curl build-essential
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
