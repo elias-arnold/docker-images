@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  ionic-builder:
+    image: eliassosu/gitbook-buildengine:latest
+    volumes:
+      - ./:/app
+    ports:
+      - "8100:8100"
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    entrypoint: ['/bin/bash']
