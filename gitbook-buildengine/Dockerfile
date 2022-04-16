@@ -1,8 +1,9 @@
-FROM node:current-alpine
+FROM node:lts-alpine
 
 ENV LANG=C.UTF-8
 ENV NG_CLI_ANALYTICS=ci
 
+RUN apk add bash
 RUN npm install -g gitbook-cli
 
 WORKDIR /app

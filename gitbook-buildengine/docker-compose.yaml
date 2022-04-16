@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  ionic-builder:
+  gitbook-builder:
     image: eliassosu/gitbook-buildengine:latest
     volumes:
       - ./:/app
