@@ -1,4 +1,4 @@
-FROM ubuntu:21.10
+FROM --platform=arm64v8 ubuntu:21.10
 
 ENV COCOAPODS_ALLOW_ROOT=true
 ENV LANG=C.UTF-8
